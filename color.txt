@@ -1,0 +1,2 @@
+メイン: #fcfdfc
+サブ: #d0cfcd
