@@ -1,7 +1,7 @@
 "use strict"
 {
     const nav_item = document.querySelectorAll(".nav_item");
-    const content_container = document.querySelectorAll(".content-container");
+    const content_container = document.querySelectorAll(".type");
 
     function change() {
         // 最初に全てのコンテナからshowクラスをとる
