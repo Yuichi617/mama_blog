@@ -308,8 +308,8 @@ header {
 }
 
 .header_logo {
-    width:200px;
-    height: 50px;
+    width: 280px;
+    height: 70px;
     margin-top: 40px;
 }
 
@@ -336,7 +336,8 @@ header {
 }
 
 .nav_item {
-    font-size: 15px;
+    font-size: 16px;
+    padding: 0 15px;
 }
 
 /* コンテントコンテナ */
