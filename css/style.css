@@ -22,12 +22,14 @@ header {
 }
 
 .header_logo {
-    width:150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.header_logo img {
+    width: 150px;
     height: 40px;
-    margin: 0 auto;
-    background-image: url(../img/atrieH-logo.svg);
-    background-repeat: no-repeat;
-    margin-top: 20px;
 }
 
 .header_social_icon {
@@ -116,11 +118,7 @@ main {
 }
 
 /* トップコンテナ */
-.top_container {
-    display: none;
-}
-
-.top_container.show {
+.top_container{
     display: flex;
     flex-direction: column;
     opacity: 0;
@@ -157,11 +155,7 @@ main {
     flex-direction: column;
 }
 
-.content_container {
-    display: none;
-}
-
-.content_container.show {
+.content_container{
     display: flex;
     flex-direction: column;
     opacity: 0;
@@ -185,6 +179,14 @@ main {
     max-width: 350px;
     margin: 0 auto;
     margin-bottom: 20px;
+    opacity: 0;
+    transform: translate(0, -100px);
+}
+
+.content.show {
+    opacity: 1;
+    transform: none;
+    transition: all .5s;
 }
 
 .content_image {
@@ -308,9 +310,14 @@ header {
 }
 
 .header_logo {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+}
+
+.header_logo img {
     width: 250px;
     height: 70px;
-    margin-top: 40px;
 }
 
 .header_social_icon {
