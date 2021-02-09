@@ -134,7 +134,7 @@ main {
 .top_image {
     display: flex;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -213,18 +213,18 @@ main {
 }
 
 .content_text {
-    height: 150px;
+    height: 40px;
 }
 
 .content_text h1 {
-    color: #000;
-    font-size: 20px;
+    color: #787c7b;
+    font-size: 15px;
 }
 
-.content_text p {
+/* .content_text p {
     color: #787c7b;
     font-size: 13px;
-}
+} */
 
 
 /* フッター */
@@ -375,7 +375,7 @@ header {
 .content_meta time {
     margin: auto 0;
     margin-right: 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .content_meta p {
@@ -386,7 +386,7 @@ header {
 }
 
 .content_text {
-    height: 150px;
+    height: 60px;
 }
 
 .content_text h1 {

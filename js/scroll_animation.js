@@ -5,7 +5,7 @@
 
     function scrollAnimation() {
         for(var i=0; i < content.length; i++){
-            var triggerMargin = 300;
+            var triggerMargin = 200;
             if(window.innerHeight > content[i].getBoundingClientRect().top + triggerMargin){
                 content[i].classList.add('show');
             }
