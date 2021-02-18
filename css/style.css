@@ -1,7 +1,7 @@
 @charset "utf-8";
-html {
+/* html {
     height: 100%;
-}
+} */
 
 body {
     font-family: 'Source Sans Pro', Helvetica Neue, arial, sans-serif;
@@ -15,8 +15,8 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    height: 60px;
-    margin-bottom: 30px;
+    height: 70px;
+    margin-bottom: 20px;
 }
 
 .header_top {
@@ -90,8 +90,8 @@ main {
 }
 
 .top_image {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -103,9 +103,9 @@ main {
     margin-bottom: 5px;
 }
 
-.top_image p {
+/* .top_image p {
     text-align: center;
-}
+} */
 
 /* コンテントコンテナ */
 .top_content_container {
